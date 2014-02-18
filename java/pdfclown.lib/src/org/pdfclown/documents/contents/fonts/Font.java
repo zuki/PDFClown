@@ -360,7 +360,7 @@ public abstract class Font
     @param code Internal representation to decode.
     @since 0.0.6
   */
-  public final String decode(
+  public String decode(
     byte[] code
     )
   {
@@ -410,7 +410,7 @@ public abstract class Font
     @param text Text to encode.
     @since 0.0.6
   */
-  public final byte[] encode(
+  public byte[] encode(
     String text
     )
   {
